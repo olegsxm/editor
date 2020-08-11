@@ -12,7 +12,7 @@ import { defaultDocument, WEB_API_ACTION } from '../data';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ContainerComponent implements OnInit {
-  public hostUrl = 'https://ej2services.syncfusion.com/production/web-services/';
+  public hostUrl = '';
   @ViewChild('documenteditor_default')
   public container: DocumentEditorContainerComponent;
   public culture = 'en-US';
